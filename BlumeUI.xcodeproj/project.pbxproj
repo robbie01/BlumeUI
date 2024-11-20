@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC0BD0872CEDA10F00B0A7FE /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = DC0BD0862CEDA10F00B0A7FE /* GRDB */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC0BD0692CEDA03300B0A7FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC0BD04F2CEDA03100B0A7FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0BD0562CEDA03100B0A7FE;
+			remoteInfo = BlumeUI;
+		};
+		DC0BD0732CEDA03300B0A7FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC0BD04F2CEDA03100B0A7FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0BD0562CEDA03100B0A7FE;
+			remoteInfo = BlumeUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC0BD0572CEDA03100B0A7FE /* BlumeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlumeUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0BD0682CEDA03300B0A7FE /* BlumeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlumeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0BD0722CEDA03300B0A7FE /* BlumeUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlumeUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DC0BD0592CEDA03100B0A7FE /* BlumeUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlumeUI;
+			sourceTree = "<group>";
+		};
+		DC0BD06B2CEDA03300B0A7FE /* BlumeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlumeUITests;
+			sourceTree = "<group>";
+		};
+		DC0BD0752CEDA03300B0A7FE /* BlumeUIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlumeUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC0BD0542CEDA03100B0A7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0BD0872CEDA10F00B0A7FE /* GRDB in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0BD0652CEDA03300B0A7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0BD06F2CEDA03300B0A7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC0BD04E2CEDA03100B0A7FE = {
+			isa = PBXGroup;
+			children = (
+				DC0BD0592CEDA03100B0A7FE /* BlumeUI */,
+				DC0BD06B2CEDA03300B0A7FE /* BlumeUITests */,
+				DC0BD0752CEDA03300B0A7FE /* BlumeUIUITests */,
+				DC0BD0582CEDA03100B0A7FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC0BD0582CEDA03100B0A7FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC0BD0572CEDA03100B0A7FE /* BlumeUI.app */,
+				DC0BD0682CEDA03300B0A7FE /* BlumeUITests.xctest */,
+				DC0BD0722CEDA03300B0A7FE /* BlumeUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC0BD0562CEDA03100B0A7FE /* BlumeUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0BD07C2CEDA03300B0A7FE /* Build configuration list for PBXNativeTarget "BlumeUI" */;
+			buildPhases = (
+				DC0BD0532CEDA03100B0A7FE /* Sources */,
+				DC0BD0542CEDA03100B0A7FE /* Frameworks */,
+				DC0BD0552CEDA03100B0A7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DC0BD0592CEDA03100B0A7FE /* BlumeUI */,
+			);
+			name = BlumeUI;
+			packageProductDependencies = (
+				DC0BD0862CEDA10F00B0A7FE /* GRDB */,
+			);
+			productName = BlumeUI;
+			productReference = DC0BD0572CEDA03100B0A7FE /* BlumeUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC0BD0672CEDA03300B0A7FE /* BlumeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0BD07F2CEDA03300B0A7FE /* Build configuration list for PBXNativeTarget "BlumeUITests" */;
+			buildPhases = (
+				DC0BD0642CEDA03300B0A7FE /* Sources */,
+				DC0BD0652CEDA03300B0A7FE /* Frameworks */,
+				DC0BD0662CEDA03300B0A7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC0BD06A2CEDA03300B0A7FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DC0BD06B2CEDA03300B0A7FE /* BlumeUITests */,
+			);
+			name = BlumeUITests;
+			packageProductDependencies = (
+			);
+			productName = BlumeUITests;
+			productReference = DC0BD0682CEDA03300B0A7FE /* BlumeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC0BD0712CEDA03300B0A7FE /* BlumeUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0BD0822CEDA03300B0A7FE /* Build configuration list for PBXNativeTarget "BlumeUIUITests" */;
+			buildPhases = (
+				DC0BD06E2CEDA03300B0A7FE /* Sources */,
+				DC0BD06F2CEDA03300B0A7FE /* Frameworks */,
+				DC0BD0702CEDA03300B0A7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC0BD0742CEDA03300B0A7FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DC0BD0752CEDA03300B0A7FE /* BlumeUIUITests */,
+			);
+			name = BlumeUIUITests;
+			packageProductDependencies = (
+			);
+			productName = BlumeUIUITests;
+			productReference = DC0BD0722CEDA03300B0A7FE /* BlumeUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC0BD04F2CEDA03100B0A7FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					DC0BD0562CEDA03100B0A7FE = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					DC0BD0672CEDA03300B0A7FE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = DC0BD0562CEDA03100B0A7FE;
+					};
+					DC0BD0712CEDA03300B0A7FE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = DC0BD0562CEDA03100B0A7FE;
+					};
+				};
+			};
+			buildConfigurationList = DC0BD0522CEDA03100B0A7FE /* Build configuration list for PBXProject "BlumeUI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC0BD04E2CEDA03100B0A7FE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DC0BD0852CEDA10F00B0A7FE /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DC0BD0582CEDA03100B0A7FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC0BD0562CEDA03100B0A7FE /* BlumeUI */,
+				DC0BD0672CEDA03300B0A7FE /* BlumeUITests */,
+				DC0BD0712CEDA03300B0A7FE /* BlumeUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC0BD0552CEDA03100B0A7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0BD0662CEDA03300B0A7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0BD0702CEDA03300B0A7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC0BD0532CEDA03100B0A7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0BD0642CEDA03300B0A7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0BD06E2CEDA03300B0A7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC0BD06A2CEDA03300B0A7FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0BD0562CEDA03100B0A7FE /* BlumeUI */;
+			targetProxy = DC0BD0692CEDA03300B0A7FE /* PBXContainerItemProxy */;
+		};
+		DC0BD0742CEDA03300B0A7FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0BD0562CEDA03100B0A7FE /* BlumeUI */;
+			targetProxy = DC0BD0732CEDA03300B0A7FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC0BD07A2CEDA03300B0A7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC0BD07B2CEDA03300B0A7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DC0BD07D2CEDA03300B0A7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlumeUI/BlumeUIDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlumeUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sohio.BlumeUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC0BD07E2CEDA03300B0A7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlumeUI/BlumeUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlumeUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sohio.BlumeUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DC0BD0802CEDA03300B0A7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sohio.BlumeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlumeUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlumeUI";
+			};
+			name = Debug;
+		};
+		DC0BD0812CEDA03300B0A7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sohio.BlumeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlumeUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlumeUI";
+			};
+			name = Release;
+		};
+		DC0BD0832CEDA03300B0A7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sohio.BlumeUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BlumeUI;
+			};
+			name = Debug;
+		};
+		DC0BD0842CEDA03300B0A7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sohio.BlumeUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BlumeUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC0BD0522CEDA03100B0A7FE /* Build configuration list for PBXProject "BlumeUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0BD07A2CEDA03300B0A7FE /* Debug */,
+				DC0BD07B2CEDA03300B0A7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0BD07C2CEDA03300B0A7FE /* Build configuration list for PBXNativeTarget "BlumeUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0BD07D2CEDA03300B0A7FE /* Debug */,
+				DC0BD07E2CEDA03300B0A7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0BD07F2CEDA03300B0A7FE /* Build configuration list for PBXNativeTarget "BlumeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0BD0802CEDA03300B0A7FE /* Debug */,
+				DC0BD0812CEDA03300B0A7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0BD0822CEDA03300B0A7FE /* Build configuration list for PBXNativeTarget "BlumeUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0BD0832CEDA03300B0A7FE /* Debug */,
+				DC0BD0842CEDA03300B0A7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC0BD0852CEDA10F00B0A7FE /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "7.0.0-beta.6";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC0BD0862CEDA10F00B0A7FE /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC0BD0852CEDA10F00B0A7FE /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DC0BD04F2CEDA03100B0A7FE /* Project object */;
+}
